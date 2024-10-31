@@ -28,9 +28,15 @@ Buat file `daemon.php`
 Daemon dijalankan ketika pengguna berhasil login dengan menggunakan fungsi exec() dari PHP yang menjalankan daemon di latar belakang secara asinkron. Ini memastikan bahwa daemon tetap berjalan meskipun pengguna sudah tidak melakukan aktivitas di situs web.
 
 ## Keamanan dan Optimasi
+<<<<<<< HEAD
 *Sanitasi Input* : Pastikan untuk melakukan sanitasi dan validasi input agar lebih aman.
 *Enkripsi Password*: Gunakan fungsi password_hash() dan password_verify() untuk enkripsi password.
 *Optimasi Daemon*: Sesuaikan daemon process untuk menangani berbagai tugas latar belakang sesuai kebutuhan.
+=======
+*S*anitasi Input** : Pastikan untuk melakukan sanitasi dan validasi input agar lebih aman.
+**Enkripsi Password**: Gunakan fungsi password_hash() dan password_verify() untuk enkripsi password.
+**Optimasi Daemon**: Sesuaikan daemon process untuk menangani berbagai tugas latar belakang sesuai kebutuhan.
+>>>>>>> aef69fc9e57718a39ecb824f5c1b928169cb6f25
 
 
 
